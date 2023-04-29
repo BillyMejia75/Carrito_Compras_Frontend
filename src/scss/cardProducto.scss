@@ -1,0 +1,34 @@
+.card {
+    min-height: 420px;
+    max-height: 383px;
+
+    .card-img-top {
+        background-color: #f0f0f0;
+        padding-bottom: 6px;
+        min-height: 12rem;
+        max-height: 12rem;
+    }
+
+    .card_body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between
+    }
+
+    .btn {
+        text-decoration: none;
+        background-color: #f0f0f0;
+        border: 1px solid #d2d2d2;
+        border-radius: 0;
+        padding: .5rem 1rem;
+        min-width: 162px;
+        min-height: 42px;
+        color: #101010;
+        font-weight: 500;
+        transition: .3s ease;
+
+        &:hover {
+            background-color: #fff;
+        }
+    }
+}

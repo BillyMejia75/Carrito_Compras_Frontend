@@ -1,0 +1,25 @@
+@mixin dFlex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_carrito_vacio {
+  width: 100%;
+  height: calc(100vh - 18rem);
+
+  .h5 {
+    height: 80.5vh;
+    @include dFlex();
+  }
+}
+
+.container_products_no_results {
+  width: 100%;
+  height: calc(100vh - 21rem);
+
+  .h5 {
+    height: 70vh;
+    @include dFlex();
+  }
+}
